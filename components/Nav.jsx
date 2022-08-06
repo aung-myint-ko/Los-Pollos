@@ -31,7 +31,7 @@ function Nav() {
     };
     document.body.addEventListener("click", CloseNav);
     return () => document.body.removeEventListener("click", CloseNav);
-  }, [hamburgerMenu]);
+  }, []);
 
   return (
     <>
