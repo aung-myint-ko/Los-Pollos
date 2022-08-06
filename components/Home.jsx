@@ -6,7 +6,7 @@ import Pizza from "../public/images/home.png";
 function Home() {
   return (
     <div
-      className={`home px-4 md:px-16 lg:px-24 grid grid-cols-1  sm:grid-cols-2 sm:items-center`}
+      className={`home bg-[url('../public/images/wood.jpg')] px-4 md:px-16 lg:px-24 grid grid-cols-1  sm:grid-cols-2 sm:items-center`}
     >
       <div
         data-aos="fade-right"

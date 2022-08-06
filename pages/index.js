@@ -13,12 +13,13 @@ export default function Home({ popularRecipes }) {
         <title>Los Pollos</title>
         <meta
           name="description"
-          content="Los Pollos landed in Myanmar in 1977,  when the first restaurant opened its doors at Bogyoke Road"
+          content="Los Pollos landed in Myanmar in 1977, when the first restaurant opened its doors at Bogyoke Road"
         />
         <meta
           name="keywords"
-          content="Los Pollos, los pollos, los pollos myanmar"
+          content="Los Pollos, los pollos, los pollos myanmar, los pollos vercel"
         />
+        <meta property="og:image" content="/images/icon.png" />
         <link rel="icon" href="/images/icon.png" />
       </Head>
       <Homes />
