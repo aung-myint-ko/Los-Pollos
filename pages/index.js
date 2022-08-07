@@ -5,6 +5,7 @@ import Intro from "../components/Intro";
 import History from "../components/History";
 import Popular from "../components/Popular";
 import { client } from "../lib/client";
+import Loading from "../components/loading";
 
 export default function Home({ popularRecipes }) {
   return (

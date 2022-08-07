@@ -3,6 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   hamburgerMenu: false,
   payProcess: false,
+  order: false,
   customer: {
     name: "",
     address: "",
@@ -83,6 +84,12 @@ export const shopSlice = createSlice({
     },
     hamburgerMenuCloseClickSpace(state) {
       state.hamburgerMenu = false;
+    },
+    orderSuccess(state) {
+      state.order = true;
+    },
+    orderReturn(state) {
+      state.order = false;
     },
   },
 });

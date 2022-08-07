@@ -44,6 +44,12 @@ body::-webkit-scrollbar-button,
   --hoverOrange: #f85119f5;
   --paleOrange: #fcf5f2ce;
 }
+.loading {
+  max-width: 112px;
+}
+.orderSuccess {
+  max-width: 380px;
+}
 .orange {
   color: var(--orange);
 }
