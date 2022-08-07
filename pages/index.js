@@ -1,11 +1,9 @@
 import Head from "next/head";
-import dynamic from "next/dynamic";
 import Homes from "../components/Home";
 import Intro from "../components/Intro";
 import History from "../components/History";
 import Popular from "../components/Popular";
 import { client } from "../lib/client";
-import Loading from "../components/loading";
 
 export default function Home({ popularRecipes }) {
   return (

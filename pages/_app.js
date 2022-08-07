@@ -6,7 +6,7 @@ import Head from "next/head";
 import NextNProgress from "nextjs-progressbar";
 import { useEffect, useState } from "react";
 import AOS from "aos";
-import Loading from "../components/loading";
+import Loading from "../components/Loading";
 
 function MyApp({ Component, pageProps }) {
   const [loading, setloading] = useState(false);
