@@ -40,7 +40,7 @@ function Popular({ popularRecipes }) {
       </p>
       <h1
         data-aos="fade-up"
-        className=" mb-6 md:mb-8 text-2xl md:text-4xl font-bold"
+        className=" mb-6 md:mb-8 text-3xl md:text-4xl font-bold"
       >
         Hot Menu That Will <br /> Make You Hungry
       </h1>

@@ -80,7 +80,7 @@ body::-webkit-scrollbar-button,
   height: 12vh;
 }
 .navlinks {
-  transition: all 0.3s ease;
+  transition: all 0.3s linear;
 }
 .navlinks li:hover {
   color: var(--orange);

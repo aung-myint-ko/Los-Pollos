@@ -15,7 +15,7 @@ function Intro() {
       </p>
       <h1
         data-aos="fade-up"
-        className=" mb-4 md:mb-7 text-2xl md:text-4xl font-bold text-center"
+        className=" mb-4 md:mb-7  text-3xl md:text-4xl font-bold text-center"
       >
         Delicious Food & Fastest Delivery
       </h1>

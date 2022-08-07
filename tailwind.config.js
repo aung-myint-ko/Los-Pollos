@@ -5,7 +5,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   backgroundImage: {
-    wood: "url('../public/images/wood.jpg')",
+    wood: "url('/images/wood.jpg')",
   },
   theme: {
     extend: {},

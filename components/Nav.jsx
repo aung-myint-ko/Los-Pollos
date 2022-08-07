@@ -93,8 +93,8 @@ function Nav() {
         <ul
           className={
             hamburgerMenu
-              ? `navlinks fixed top-0 left-0 bg_black w-full h-screen md:grid grid-cols-3 gap-x-6 z-30`
-              : ` hidden `
+              ? `navlinks fixed top-0 left-0  w-full h-screen md:grid grid-cols-3 gap-x-6 z-30`
+              : `navlinks fixed top-0 -left-full w-full h-screen md:grid grid-cols-3 gap-x-6 z-30  `
           }
         >
           <div className=" w-1/2 bg-orange-100 h-full flex flex-col gap-y-5 justify-center items-center">

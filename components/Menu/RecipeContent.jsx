@@ -55,18 +55,18 @@ function RecipeContent({ Recipes }) {
         </h1>
         <p
           data-aos="fade-up"
-          className=" text-sm md:text-lg text-gray-600 mb-2 md:mb-4"
+          className=" text-sm md:text-lg text-gray-600 mb-3 md:mb-4"
         >
           {description}
         </p>
         <p
           data-aos="fade-up"
-          className=" text-xl md:text-3xl font-semibold mb-2 md:mb-4"
+          className=" text-xl md:text-3xl font-semibold mb-4 "
         >
           {price[size]}
           <span className="orange ml-2 ">MMK</span>
         </p>
-        <div className="flex justify-between md:gap-x-12 md:items-center md:justify-start mb-1 md:mb-4">
+        <div className="flex justify-between md:gap-x-12 md:items-center md:justify-start mb-3 md:mb-4">
           <h1
             data-aos="fade-up"
             className="hidden lg:block text-3xl font-semibold"
@@ -105,7 +105,7 @@ function RecipeContent({ Recipes }) {
         </div>
         <div
           data-aos="fade-up"
-          className="flex items-center gap-x-5 md:gap-x-12 mb-1 md:mb-4 "
+          className="flex items-center gap-x-5 md:gap-x-12 mb-3 md:mb-4 "
         >
           <h1 className=" text-xl md:text-3xl font-semibold">Quantity</h1>
           <div className="grid grid-cols-3 items-center">
@@ -129,7 +129,7 @@ function RecipeContent({ Recipes }) {
         <button
           data-aos="fade-up"
           onClick={addHandler}
-          className="button px-5 py-2 text-sm md:text-lg font-bold text-white rounded-full"
+          className="button px-5 py-2 text-base md:text-lg font-bold text-white rounded-full"
         >
           Add To Cart
         </button>

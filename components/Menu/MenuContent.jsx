@@ -16,7 +16,7 @@ function MenuContent({ Pizza, Burger, Noodle, Drink }) {
       </p>
       <h1
         data-aos="fade-up"
-        className=" mb-4 text-2xl md:text-4xl font-bold text-center"
+        className=" mb-4 text-3xl md:text-4xl font-bold text-center"
       >
         Here&apos;s Menu
       </h1>
@@ -28,7 +28,7 @@ function MenuContent({ Pizza, Burger, Noodle, Drink }) {
           onClick={() => setMenu(1)}
           className={` ${
             menu === 1 && "active"
-          } px-4 py-1 text-xs md:px-5 md:py-2 md:text-base font-bold rounded-full cursor-pointer`}
+          } text-sm px-5 py-2 md:text-base font-bold rounded-full cursor-pointer`}
         >
           Pizza
         </li>
@@ -36,7 +36,7 @@ function MenuContent({ Pizza, Burger, Noodle, Drink }) {
           onClick={() => setMenu(2)}
           className={` ${
             menu === 2 && "active"
-          }  px-4 py-1 text-xs md:px-5 md:py-2 md:text-base font-bold rounded-full cursor-pointer`}
+          }  text-sm px-5 py-2 md:text-base font-bold rounded-full cursor-pointer`}
         >
           Burger
         </li>
@@ -44,7 +44,7 @@ function MenuContent({ Pizza, Burger, Noodle, Drink }) {
           onClick={() => setMenu(3)}
           className={` ${
             menu === 3 && "active"
-          }  px-4 py-1 text-xs md:px-5 md:py-2 md:text-base font-bold rounded-full cursor-pointer`}
+          }  text-sm px-5 py-2 md:text-base font-bold rounded-full cursor-pointer`}
         >
           Noodle
         </li>
@@ -52,7 +52,7 @@ function MenuContent({ Pizza, Burger, Noodle, Drink }) {
           onClick={() => setMenu(4)}
           className={` ${
             menu === 4 && "active"
-          }  px-4 py-1 text-xs md:px-5 md:py-2 md:text-base font-bold rounded-full cursor-pointer`}
+          }  text-sm px-5 py-2 md:text-base font-bold rounded-full cursor-pointer`}
         >
           Drink
         </li>

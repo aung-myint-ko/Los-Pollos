@@ -49,7 +49,7 @@ function ContactContent() {
       </p>
       <h1
         data-aos="fade-up"
-        className="  mb-4 text-2xl md:text-4xl font-bold text-center"
+        className="  mb-4  text-3xl md:text-4xl font-bold text-center"
       >
         Branches Details
       </h1>
@@ -90,7 +90,7 @@ function ContactContent() {
       <div className="mt-10 sm:mt-20">
         <h1
           data-aos="fade-up"
-          className="mb-5 sm:mb-10 text-2xl md:text-4xl font-bold text-center"
+          className="mb-5 sm:mb-10  text-3xl md:text-4xl font-bold text-center"
         >
           Your Feedbacks Are Always Welcome
         </h1>
