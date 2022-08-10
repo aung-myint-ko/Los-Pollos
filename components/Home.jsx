@@ -10,7 +10,6 @@ function Home() {
     >
       <div
         data-aos="fade-right"
-        data-aos-delay="5000"
         className="flex flex-col justify-end items-center sm:items-start"
       >
         <h1 className=" text-5xl sm:text-6xl lg:text-7xl mb-2 md:tracking-wide lg:tracking-widest text-white font-extrabold">
@@ -31,7 +30,6 @@ function Home() {
       <div className=" flex items-center md:block">
         <div
           data-aos="fade-left"
-          data-aos-delay="5000"
           className=" relative w-3/5 sm:w-4/5 h-96 max-w-sm max-h-48 sm:max-h-60 lg:max-h-96  mx-auto"
         >
           <Image src={Pizza} alt={""} layout={"fill"}></Image>

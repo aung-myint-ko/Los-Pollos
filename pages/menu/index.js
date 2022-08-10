@@ -27,7 +27,7 @@ function Menu({ Pizza, Burger, Noodle, Drink }) {
     </div>
   );
 }
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const pizzaQuery = `*[_type == "allRecipes" && category == "pizza" ]`;
   const burgerQuery = `*[_type == "allRecipes" && category == "burger" ]`;
   const noodleQuery = `*[_type == "allRecipes" && category == "noodle" ]`;

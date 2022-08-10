@@ -9,12 +9,11 @@ import AOS from "aos";
 import Loading from "../components/Loading";
 
 function MyApp({ Component, pageProps }) {
-  const [loading, setloading] = useState(false);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
-    setloading(true);
     setTimeout(() => {
-      setloading(false);
-    }, [5000]);
+      setLoading(false);
+    }, [4000]);
     AOS.init({
       easing: "ease-out-cubic",
       duration: 800,
