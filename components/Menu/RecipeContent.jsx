@@ -33,7 +33,7 @@ function RecipeContent({ Recipes }) {
     // }, [width]);
   };
   return (
-    <div className="px-4 py-10 md:px-16 md:py-14 lg:px-24 lg:py-32 grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-y-0 items-center ">
+    <div className="  px-4 py-16 md:px-16 md:py-14 lg:px-24 lg:py-32 grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-y-0 items-center ">
       <div
         data-aos="fade-up"
         className=" relative max-w-xs w-9/12 h-52 md:w-4/5 md:h-full mx-auto"
@@ -57,7 +57,7 @@ function RecipeContent({ Recipes }) {
           data-aos="fade-up"
           className=" text-sm md:text-lg text-gray-600 mb-3 md:mb-4"
         >
-          {description}
+          {description}, {description}, {description}
         </p>
         <p
           data-aos="fade-up"
