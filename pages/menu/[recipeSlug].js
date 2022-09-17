@@ -43,7 +43,7 @@ function RecipeDetails({ AllRecipes }) {
   );
 }
 export const getStaticPaths = async () => {
-  const allRecipes = `*[_type == "allRecipes"] {slug {current}}`;
+  const allRecipes = `*[_type == "allRecipes"]{slug{current}}`;
 
   const AllRecipesSlugs = await client.fetch(allRecipes);
 
