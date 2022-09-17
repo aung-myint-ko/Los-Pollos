@@ -4,12 +4,10 @@ import RecipeContent from "../../components/Menu/RecipeContent";
 import { client } from "../../lib/client";
 
 function RecipeDetails({ AllRecipes }) {
-  const { name } = Recipes;
-
   return (
     <div>
       <Head>
-        <title>{name} | Los Pollos</title>
+        <title>Menu | Los Pollos</title>
         <link rel="icon" href="/images/icon.png" />
         <meta
           name="description"
@@ -19,7 +17,7 @@ function RecipeDetails({ AllRecipes }) {
           name="keywords"
           content="Los Pollos, los pollos, los pollos myanmar, los pollos vercel"
         />
-        <meta property="og:title" content={`${name} | Los Pollos`} />
+        <meta property="og:title" content={`Menu | Los Pollos`} />
         <meta
           property="og:description"
           content="Los Pollos landed in Myanmar in 1977, when the first restaurant opened its doors at Bogyoke Road"
@@ -29,7 +27,7 @@ function RecipeDetails({ AllRecipes }) {
           content="https://los-pollos.vercel.app/images/icon.png"
         />
         <meta property="og:type" content="food delivery" />
-        <meta property="twitter:title" content={`${name} | Los Pollos`} />
+        <meta property="twitter:title" content={`Menu | Los Pollos`} />
         <meta
           property="twitter:description"
           content="Los Pollos landed in Myanmar in 1977, when the first restaurant opened its doors at Bogyoke Road"
