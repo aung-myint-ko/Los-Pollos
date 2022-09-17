@@ -10,7 +10,6 @@ function Payment(props) {
   let { cartItems, finalPrice, charges, customer, order } = useSelector(
     (state) => state.shopReducer
   );
-  console.log(order);
   cartItems.map((item) => (finalPrice = finalPrice + item.total));
   let LastPrice = finalPrice + charges.tax + charges.delivery;
 

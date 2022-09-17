@@ -21,16 +21,6 @@ function RecipeContent({ Recipes }) {
     toast.success(`${name} ${sizeChecking} Is Added To Bag`, {
       duration: 1000,
     });
-
-    // const [width, setWidth] = useState(window.innerWidth);
-
-    // useEffect(() => {
-    //   function handleResize() {
-    //     setWidth(window.innerWidth);
-    //   }
-    //   window.addEventListener("resize", handleResize);
-    //   return () => window.removeEventListener("resize", handleResize);
-    // }, [width]);
   };
   return (
     <div className="  px-4 py-16 md:px-16 md:py-14 lg:px-24 lg:py-32 grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-y-0 items-center ">
